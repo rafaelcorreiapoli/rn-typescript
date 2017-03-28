@@ -7,8 +7,6 @@ import {
     View,
 } from 'react-native'
 
-import Comp from './Comp'
-
 interface Props {
 
 }
@@ -22,9 +20,8 @@ export default class App extends Component<Props, State> {
         return (
             <View style={styles.container}>
                 <Text style={styles.text}>
-                    Typescript FTW!ss
+                    Hello worlds
                 </Text>
-                <Comp />
             </View>
         )
     }
