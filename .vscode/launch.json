@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Debug Android",
             "program": "${workspaceRoot}/.vscode/launchReactNative.js",
@@ -20,7 +21,7 @@
             "target": "iPhone 5s",
             "internalDebuggerPort": 9090,
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/.vscode/.react"
+            "outDir": "${workspaceRoot}/artifacts"
         },
         {
             "name": "Attach to packager",

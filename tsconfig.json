@@ -4,7 +4,9 @@
         "target": "es6",
         "jsx": "react",
         "outDir": "artifacts",
-        "sourceMap": false
+        "sourceMap": true,
+        "sourceRoot": "src",
+        "inlineSourceMap": true
     },
     "filesGlob": [
         "typings/index.d.ts",
